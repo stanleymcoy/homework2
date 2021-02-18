@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0px;
 }
 
@@ -7,7 +7,6 @@ body {
 }
 
 html {
- 
   min-height: 100%;
 }
 
@@ -16,50 +15,65 @@ html {
   border-bottom: 1px solid #878080;
   width: 100%;
 }
-.navbar-brand.logo{
-  font-size: 32px;
+
+.navbar-brand.logo {
+  font-size: 24px;
   width: 40%;
+  align-items: left;
 }
+
 .logo {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 24px;
   font-weight: bold;
   background-color: #4aaaa5;
-  line-height: 80px;
-  width: 25%;
-  padding: 0px;
+  line-height: 30px;
+  width: 35%;
+  padding-left: 2px;
+  padding-right: 2px;
   text-align: center;
-  color: #fff !important;
+  /*  color: #fff !important;*/
+  margin: 3px;
+  float: left;
 }
 
-main {
-  margin: 80px 0;
-  padding: 20, 20px, 20px, 20px;
-  border: 100px solid black;
-  background-image: url("./images/background1.jpg");
-  
-}
 .container-main {
-  background-origin: border-box;
-  /*background-image: center/100%  url("./images/background.jpg");*/
-  background-attachment: scroll;
-  background-repeat: repeat-y;
-  background-size: cover;
-  width: 100%;
+  margin: 150px;
+  background-image: url("/images/background1.jpg");
+  clear: both;
 }
 
-.container-sm{
+.container-sm {
   padding-top: 50px;
   padding-left: 30px;
   padding-bottom: 40px;
-
 }
 
-.col-1 {
-  max-width: 100%;
-  position: relative;
+
+img{
+  /*position: justify;*/
+  display: flex;
+  /*box-sizing: border-box;*/
+  max-width: 200px;
+  max-height: auto;
+  padding-right: 50px;
 }
 
+.themed-grid-col,
+.col-md-8 {
+align-content: space-around;
+
+}
+h3{
+  text-align: right;
+  margin: 0;
+  padding-left: 200px;
+  padding-top: 0px;
+  display: block;
+}
+#text{
+  max-width: fit-content;
+}
 /* ------------------------- */
 /* other styles will be here */
 .footer {
