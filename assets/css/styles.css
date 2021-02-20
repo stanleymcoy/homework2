@@ -37,6 +37,12 @@ html {
   float: left;
 }
 
+.container-main {
+  background-image: url("/images/background1.jpg");
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
 img {
   position: justify;
