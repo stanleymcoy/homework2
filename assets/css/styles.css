@@ -37,45 +37,26 @@ html {
   float: left;
 }
 
-.container-main {
-  margin: 150px;
-  background-image: url("/images/background1.jpg");
-  clear: both;
-}
 
-.container-sm {
-  padding-top: 50px;
-  padding-left: 30px;
-  padding-bottom: 40px;
-}
-
-
-img{
-  /*position: justify;*/
+img {
+  position: justify;
   display: flex;
-  /*box-sizing: border-box;*/
+  box-sizing: border-box;
   max-width: 200px;
   max-height: auto;
   padding-right: 50px;
 }
 
-.themed-grid-col,
-.col-md-8 {
-align-content: space-around;
+.contact-container {
+  max-width: 70%;
+}
 
+.form-control {
+  background-color: rgb(180, 176, 176);
 }
-h3{
-  text-align: right;
-  margin: 0;
-  padding-left: 200px;
-  padding-top: 0px;
-  display: block;
-}
-#text{
-  max-width: fit-content;
-}
-/* ------------------------- */
-/* other styles will be here */
+ 
+
+
 .footer {
   height: 62px;
   border-top: 6px solid #4aaaa5;
