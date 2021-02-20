@@ -32,9 +32,14 @@ html {
   padding-left: 2px;
   padding-right: 2px;
   text-align: center;
-  /*  color: #fff !important;*/
+  color: #fff !important;
   margin: 3px;
   float: left;
+}
+
+h1 {
+  clear: both;
+  padding-top: 20px;
 }
 
 .container-main {
